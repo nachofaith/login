@@ -8,7 +8,6 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 
 //SERVER
-
 const app = express();
 app.set("port", 4000);
 app.listen(app.get("port"));
